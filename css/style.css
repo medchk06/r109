@@ -1,0 +1,164 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #081f37;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+img.responsive-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* Formulaire de Contact Styles */
+#formulaire {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto; /* Center the form horizontally */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Set a maximum width for the form */
+}
+
+#formulaire h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #081f37;
+    text-align: center; /* Center the heading text */
+}
+
+#formulaire label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#formulaire input[type="text"],
+#formulaire input[type="email"],
+#formulaire textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formulaire input[type="submit"] {
+    background-color: #081f37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto; /* Center the submit button */
+}
+
+#formulaire input[type="submit"]:hover {
+    background-color: #064a8a;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Style for the "Retour en haut" button */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #081f37;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #064a8a;
+}
+
+/* Couleurs supplémentaires pour personnalisation */
+.first-color { 
+    background: #081f37; 
+}
+
+.second-color { 
+    background: #5fc9f3; 
+}
+
+.third-color { 
+    background: #2e79ba; 
+}
+
+.fourth-color { 
+    background: #1e549f; 
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+    }
+    header ul li {
+        margin: 5px 0;
+    }
+}
+

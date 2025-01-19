@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Volley-Ball</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <h1 id="top">Volley-Ball</h1>
+        <h3>FLY HIGH</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#histoire">Histoire du Volley</a></li>
+                <li><a href="#Techniquesdejeuessentielles">Techniques de jeu</a></li>
+                <li><a href="joueurs.html">Joueurs Célèbres</a></li>
+                <li><a href="Competitions.html">Compétitions Mondiales</a></li>
+                <li><a href="#formulaire">formulaire de contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section principale -->
+    <main>
+        <!-- Introduction -->
+        <section>
+            <img src="pic/vb1-removebg-preview.png" alt="Image d'un match de volley-ball" class="responsive-img">
+            <h2>Bienvenue sur mon blog de Volley-Ball</h2>
+            <p>Vous découvrirez ici des informations passionnantes sur l'histoire, les règles et les techniques de ce sport d'équipe dynamique.</p>
+        </section>
+
+        <!-- Histoire du Volley -->
+        <section id="histoire">
+            <h2>Histoire du Volley-Ball</h2>
+            <p>Le volley-ball a été inventé en 1895 par William G. Morgan, un éducateur physique de la Young Men's Christian Association (YMCA) à Holyoke, dans le Massachusetts, aux États-Unis. Morgan souhaitait créer une activité physique adaptée aux adultes, moins intense et plus accessible que le basketball, inventé quelques années plus tôt par son collègue James Naismith.
+                
+                Inspiré par plusieurs sports comme le tennis et le basketball, il a développé un jeu initialement appelé « Mintonette ». Celui-ci se jouait avec une balle légère au-dessus d’un filet. Le nom a ensuite été changé en « volley-ball » pour refléter l’action principale du jeu : faire passer la balle d’un camp à l’autre.
+                
+                Ce sport, simple et flexible, s’est rapidement popularisé, jusqu’à devenir une discipline olympique en 1964, et reste aujourd’hui pratiqué par des millions de personnes à travers le monde.</p>
+            <img src="pic/volley-ballpic.jpg" alt="Image historique du volley" class="responsive-img">
+        </section>
+
+        <!-- Techniques de jeu -->
+        <section id="Techniquesdejeuessentielles">
+            <h2>Techniques de jeu essentielles</h2>
+            <ul>
+                <li>
+                    <strong>Service</strong> : Le point de départ de chaque action.
+                    <p>Le service est l'action qui lance chaque point. Il s'agit de mettre le ballon en jeu en le frappant depuis la ligne de fond du terrain. Un bon service peut mettre l'équipe adverse en difficulté, soit par sa puissance, soit par sa précision. Il existe différents types de services : le service flottant (sans effet), le service smashé (puissant), et le service jump (avec saut). Le service est la première opportunité de prendre l'avantage dans le rallye.</p>
+                </li>
+                <li>
+                    <strong>Réception</strong> : Contrôle du ballon pour lancer l'attaque.
+                    <p>La réception est la première touche de balle après le service adverse. Son objectif est de contrôler le ballon pour permettre à l'équipe de construire une attaque. Une réception précise est essentielle pour éviter les erreurs et donner au passeur la possibilité de bien orienter le jeu. Les joueurs utilisent souvent la manchette (passe avant-bras) pour assurer une réception stable et précise.</p>
+                </li>
+                <li>
+                    <strong>Passe</strong> : Orientation du jeu vers l'attaquant.
+                    <p>La passe est l'action qui suit la réception et qui oriente le jeu vers l'attaquant. Le passeur, souvent considéré comme le cerveau de l'équipe, doit être précis et rapide pour mettre l'attaquant dans les meilleures conditions. Une bonne passe permet de varier les angles d'attaque et de surprendre la défense adverse. La passe peut être haute, rapide, courte ou longue, selon la stratégie de l'équipe.</p>
+                </li>
+                <li>
+                    <strong>Attaque</strong> : Frappe du ballon pour marquer.
+                    <p>L'attaque est l'action offensive qui vise à marquer le point. Elle consiste à frapper le ballon avec force et précision pour le faire atterrir dans le camp adverse. Les attaquants utilisent des techniques comme le smash, le coup placé ou le lob pour déjouer le bloc et la défense. Une attaque réussie dépend de la qualité de la passe, du timing du saut et de la lecture du jeu adverse.</p>
+                </li>
+                <li>
+                    <strong>Contre</strong> : Défense au filet pour bloquer les attaques.
+                    <p>Le contre est l'action défensive au filet qui vise à bloquer l'attaque adverse. Les joueurs sautent et tendent les bras pour intercepter le ballon avant qu'il ne traverse le filet. Un bon contre peut non seulement stopper l'attaque, mais aussi rediriger le ballon vers le camp adverse pour marquer directement. Le contre demande une excellente coordination, un bon timing et une lecture rapide des intentions de l'attaquant.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="formulaire">
+            <h2>Formulaire de Contact</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Passion Volley-Ball</p>
+        <p>Mohammed Islam Choukri</p>
+        <a href="#top" class="button">Retour en haut</a>
+    </footer>
+</body>
+</html>
